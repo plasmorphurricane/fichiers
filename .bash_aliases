@@ -1,0 +1,25 @@
+alias dupdate="sudo apt update && sudo apt upgrade"
+alias supdate="sudo snap refresh"
+alias fupdate="flatpak upgrade"
+alias dnfu="sudo dnf update"
+alias dnfi="sudo dnf install"
+alias gpob="~/fichiers/scripts/gpob.sh"
+alias xscta="~/fichiers/scripts/xsct.sh"
+
+#Git
+alias gst="git status"
+alias gaa="git add --all"
+alias ga="git add"
+alias gcmsg="git commit -m"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gco="git checkout"
+alias grset="git remote set-url origin"
+alias gl="git pull"
+alias gf="git fetch"
+alias gp="git push"
+alias gpsup="git push --set-upstream origin"
+
+#Systemctl
+alias reboot="systemctl reboot"
+alias poweroff="systemctl poweroff"

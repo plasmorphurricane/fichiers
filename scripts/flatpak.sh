@@ -13,7 +13,6 @@ EXTENSION="com.mattjakeman.ExtensionManager"
 QBITTORENT="org.qbittorrent.qBittorrent"
 LUTRIS="net.lutris.Lutris"
 HEROIC="com.heroicgameslauncher.hgl"
-FREETUBE="io.freetubeapp.FreeTube"
 NEWS="io.gitlab.news_flash.NewsFlash"
 ZEN="io.github.zen_browser.zen"
 
@@ -25,5 +24,5 @@ function error_exit {
 }
 
 # Install flatpak packages
-flatpak install -y flathub $BOXES $BRAVE $DEVTOOLBOX $SIGNAL $SPOTIFY $VESKTOP $WAREHOUSE $METADATACLEANER $EXTENSION $QBITTORENT $LUTRIS $HEROIC $FREETUBE $NEWS $ZEN|| error_exit "Failed to install flatpak packages."
+flatpak install -y flathub $BOXES $BRAVE $DEVTOOLBOX $SIGNAL $SPOTIFY $VESKTOP $WAREHOUSE $METADATACLEANER $EXTENSION $QBITTORENT $LUTRIS $HEROIC $NEWS $ZEN|| error_exit "Failed to install flatpak packages."
 

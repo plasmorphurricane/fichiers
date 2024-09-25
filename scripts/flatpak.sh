@@ -6,7 +6,6 @@ BRAVE="com.brave.Browser"
 DEVTOOLBOX="me.iepure.devtoolbox"
 SIGNAL="org.signal.Signal"
 SPOTIFY="com.spotify.Client"
-VESKTOP="dev.vencord.Vesktop"
 WAREHOUSE="io.github.flattool.Warehouse"
 METADATACLEANER="fr.romainvigier.MetadataCleaner"
 EXTENSION="com.mattjakeman.ExtensionManager"
@@ -24,5 +23,5 @@ function error_exit {
 }
 
 # Install flatpak packages
-flatpak install -y flathub $BOXES $BRAVE $DEVTOOLBOX $SIGNAL $SPOTIFY $VESKTOP $WAREHOUSE $METADATACLEANER $EXTENSION $QBITTORENT $LUTRIS $HEROIC $NEWS $ZEN|| error_exit "Failed to install flatpak packages."
+flatpak install -y flathub $BOXES $BRAVE $DEVTOOLBOX $SIGNAL $SPOTIFY $WAREHOUSE $METADATACLEANER $EXTENSION $QBITTORENT $LUTRIS $HEROIC $NEWS $ZEN|| error_exit "Failed to install flatpak packages."
 
